@@ -20,6 +20,9 @@ module.exports = (sequelize) => {
     released:{
       type:DataTypes.DATEONLY
     },
+    background_image: {
+      type: DataTypes.STRING,
+    },
     rating:{
       type:DataTypes.FLOAT
     },
